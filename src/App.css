@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*===== APP =====*/
+.app{
+    width: 100%;
+    height: auto;
+    background: url('../src/assets/boda-bg.jpg');
+    position: relative;
+    z-index: 40;
+    padding-bottom: 200px;
+    
+}
+
+/*-- APP ESQUINEROS CONTENT --*/
+
+
+.esquinero{
+    width: 150px;
+    position: absolute;
+    z-index: 55;
+}
+
+.esquinero__one{
+    top: 5px;
+    left: 5px;
+}
+
+.esquinero__two{
+    transform: rotate(90deg);
+    right: 5px;
+    top: 5px;
+
+}
+
+.esquinero__three{
+    transform: rotate(270deg);
+    left: 5px;
+    bottom: 5px;
+}
+
+.esquinero__four{
+    transform: rotate(180deg);
+    right: 5px;
+    bottom: 5px;
+}
+
+
+
+
+
+/*-- SHOW RIGTH --*/
+@keyframes rigth {
+    0% {
+        opacity: 0;
+        scale: 0;
+        transform: translateX(-500px);
+    }
+
+    100% {
+
+        opacity: 1;
+        scale: 1;
+        transform: translateX(0);
+    }
+}
+
+
+/*-- SHOW LEFT --*/
+@keyframes showleft {
+    0% {
+        opacity: 0;
+        scale: 0;
+        transform: translateX(500px);
+    }
+
+    100% {
+
+        opacity: 1;
+        scale: 1;
+        transform: translateX(0);
+    }
+}
+
+
+/*-- TITTLE ANIMATED SHOW --*/
+@keyframes top {
+    0% {
+        transform: translateY(-40px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

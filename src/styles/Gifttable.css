@@ -1,0 +1,94 @@
+/*===== GIFT TABLE =====*/
+.gifttable {
+  width: 100%;
+  height: auto;
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*-- GIFT TABLE TITTLE CONTENT --*/
+.gifttable__tittle-container {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  color: #1b1919;
+  font-family: 'Yellowtail';
+  position: relative;
+    animation: rigth linear both;
+    animation-timeline: view();
+    animation-range: entry 1% cover 30%;
+}
+
+.gifttable__tittle {
+  font-size: 34px;
+}
+
+
+
+/*-- GIFTS CARDS CONTAINER --*/
+.gifttable__cards-container{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+
+/*-- GIFTS CARD LIVERPOOL CONTENT --*/
+
+.gifttable__card{
+    width: 250px;
+    height: 85px;
+    background: #d3970a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #ffff;
+    font-family: sans-serif;
+    gap: 15px;
+    border-radius: 20px;
+    position: relative;
+    animation: showleft linear both;
+    animation-timeline: view();
+    animation-range: entry 1% cover 30%;
+}
+
+.gift__logo-liverpool{
+    width: 80px;
+}
+
+.gift__logo-text{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+/*-- GIFT CARD SEARS CONTENT --*/
+.gift__logo-sears{
+    width: 200px;
+}
+
+
+/*-- GIFT TABLLE MESSAGE CONTENT --*/
+.gifttable__message-container{
+  width: 90%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  font-family: 'Smooch Sans';
+  color: #111010;
+  font-size: 26px;
+  font-weight: 800;
+  position: relative;
+    animation: rigth linear both;
+    animation-timeline: view();
+    animation-range: entry 1% cover 30%;
+  
+}

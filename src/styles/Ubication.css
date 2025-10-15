@@ -1,0 +1,123 @@
+/*===== UBICTION CONTENT =====*/
+.ubication{
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+}
+
+
+
+/*-- UBICATION TITTLE CONTAINER --*/
+.ubication__tittle-container{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    color: #2b2626;
+    font-family: 'Yellowtail';
+    position: relative;
+    animation: rigth linear both;
+    animation-timeline: view();
+    animation-range: entry 1% cover 30%;
+
+}
+
+.ubication__tittle{
+    font-size: 35px;
+}
+
+
+
+/*-- UBICATION CARDS CONTENT --*/
+.ubication__cards-container{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    padding-top: 60px;
+    text-align: center;
+    font-family: 'system-ui';
+    color: #fff;
+}
+
+
+
+/*-- UBICATION APARTADO TWO CONTENT --*/
+.apartado__two-container{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    position: relative;
+    animation: top linear both;
+    animation-timeline: view();
+    animation-range: entry 1% cover 30%;
+
+
+}
+
+.apartado__two{
+    width: 360px;
+    filter: drop-shadow(5px 7px 5px #0008);
+}
+
+
+
+
+
+
+
+
+/*-- SHOW RIGTH --*/
+@keyframes rigth {
+    0% {
+        opacity: 0;
+        scale: 0;
+        transform: translateX(-500px);
+    }
+
+    100% {
+
+        opacity: 1;
+        scale: 1;
+        transform: translateX(0);
+    }
+}
+
+
+/*-- SHOW LEFT --*/
+@keyframes showleft {
+    0% {
+        opacity: 0;
+        scale: 0;
+        transform: translateX(500px);
+    }
+
+    100% {
+
+        opacity: 1;
+        scale: 1;
+        transform: translateX(0);
+    }
+}
+
+
+/*-- TITTLE ANIMATED SHOW --*/
+@keyframes top {
+    0% {
+        transform: translateY(-40px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

@@ -1,0 +1,155 @@
+/*===== TINERARIO =====*/
+.itinerario{
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+}
+
+
+
+/*-- ITINERARIO TITTLE CONTAINER --*/
+.itinerario__tittle-container{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    color: #2b2626;
+    font-family: 'Yellowtail';
+    position: relative;
+    animation: rigth linear both;
+    animation-timeline: view();
+    animation-range: entry 1% cover 30%;
+
+}
+
+.itinerario__tittle{
+    font-size: 35px;
+}
+
+
+
+/*-- ITINERARIO CONTENT --*/
+.itinerario__content{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+
+
+
+/*-- ITINERARIO LINE CONTENT --*/
+.itinerario__line{
+ position: relative;
+ width: 3px;
+ height: 340px;
+ background: #2b2626;
+ text-align: center;
+}
+
+
+
+/*-- ITINERARIO ITEMS CONTENT --*/
+.itinerario__items{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #2b2626;
+    border-radius: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.itinerario__misa{
+    top: -20px;
+    left: -23px;
+}
+
+.itinerario__salon{
+    top: 85px;
+    left: -23px;
+}
+
+.itinerario__comida{
+    top: 198px;
+    left: -23px;
+}
+
+.itinerario__baile{
+    top: 305px;
+    left: -23px;
+}
+
+
+
+/*-- SVG ITINERARIO ITEM CONTENT --*/
+svg{
+    color: #fceadc;
+    width: 36px;
+    height: 36px;
+}
+
+
+
+/*-- ITINERARIO TEXT CONTENT --*/
+.itinerario__text{
+    position: absolute;
+    font-family: 'Oswald';
+    font-size: 24px;
+    color: #2b2626;
+    font-weight: 600;
+}
+
+.itinerario__stron{
+    font-family: 'Smooch Sans';
+    font-size: 28px;
+}
+
+.itinerario__text-misa{
+    right: 100px;
+    top: -40px;
+    position: relative;
+    animation: rigth linear both;
+    animation-timeline: view();
+    animation-range: entry 1% cover 30%;
+}
+
+.itinerario__text-reception{
+    top: -50px;
+    left: 60px;
+    position: relative;
+    animation: showleft linear both;
+    animation-timeline: view();
+    animation-range: entry 1% cover 30%;
+}
+
+.itinerario__text-eat{
+    top: -75px;
+    right: 100px;
+    position: relative;
+    animation: rigth linear both;
+    animation-timeline: view();
+    animation-range: entry 1% cover 30%;
+}
+
+.itinerario__text-brindis{
+    top: -90px;
+    left: 50px;
+    position: relative;
+    animation: showleft linear both;
+    animation-timeline: view();
+    animation-range: entry 1% cover 30%;
+}
+
+
+/*-- RINGS IMAGE CONTENT --*/
+.rings{
+    width: 40px;
+}

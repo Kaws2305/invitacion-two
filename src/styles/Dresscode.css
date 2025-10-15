@@ -1,0 +1,74 @@
+/*===== DRESSCODE =====*/
+.dresscode {
+  width: 100%;
+  height: auto;
+  padding-top: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*-- DRESS CODE TITTLE CONTENT --*/
+.dresscode__tittle-container {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  color: #2b2626;
+  font-family: "Yellowtail";
+  position: relative;
+  animation: rigth linear both;
+  animation-timeline: view();
+  animation-range: entry 1% cover 30%;
+}
+
+.dresscode__tittle {
+  font-size: 30px;
+}
+
+/*-- DRESSCODE IMAGE CONTENT --*/
+.dresscode__image-container {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  position: relative;
+  animation: showleft linear both;
+  animation-timeline: view();
+  animation-range: entry 1% cover 30%;
+}
+
+.dresscode__image {
+  width: 350px;
+}
+
+/*-- DRESSCODE TEXT CONTENT --*/
+.dresscode__text-container {
+  width: 85%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  padding-top: 30px;
+  position: relative;
+  animation: rigth linear both;
+  animation-timeline: view();
+  animation-range: entry 1% cover 30%;
+}
+
+.dresscode__text-tittle {
+  font-size: 50px;
+  color: #2b2626;
+  font-family: "Dynalight";
+  font-weight: 600;
+}
+
+.dresscode__text {
+  color: #111111;
+  font-family: sans-serif;
+  margin-top: 10px;
+  font-size: 17px;
+  font-weight: 600;
+}

@@ -1,0 +1,73 @@
+/*===== CARDS =====*/
+.cards{
+    width: 350px;
+    height: auto;
+    background: #645858;
+    border-radius: 20px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 7px 10px #0005;
+    font-family: 'Oswald';
+    position: relative;
+    animation: showleft  linear both;
+    animation-timeline: view();
+    animation-range: entry 1% cover 30%;
+
+}
+
+/*-- CARD TITTLE CONTENT --*/
+.card__tittle-container{
+    padding: 20px 0 10px 0;
+}
+
+.card__tittle{
+    font-size: 30px;
+}
+
+
+/*-- CARD IMAGE CONTENT --*/
+.card__image-container{
+    width: 85%;
+    height: 180px;
+    margin: 20px 0;
+}
+
+.card__image{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 2px solid #fff;
+}
+
+
+/*-- CARD TEXT CONTENT --*/
+.card__text{
+    width: 90%;
+    margin: auto;
+    font-size: 23px;
+    padding: 10px 0;
+    color: #fceadc;
+}
+
+
+
+/*-- CARD BUTTON CONTENT --*/
+.card__button-container{
+    padding-top:30px;
+}
+
+
+.card__button{
+    text-decoration: none;
+    color: #c09530;
+    background: #fceadc;
+    padding: 10px 15px;
+    border-radius: 90px;
+    font-family: system-ui;
+    font-size: 21px;
+    font-weight: 600;
+    box-shadow: 5px 7px 8px #0007;
+}

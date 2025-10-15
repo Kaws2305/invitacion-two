@@ -1,0 +1,238 @@
+/*====== HEADER =====*/
+.header{
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 50;
+}
+
+/*-- HEADER BACKGROUND CONTAINER --*/
+
+/*.header__bg{
+    position: absolute;
+    background: #1b1a1a;
+    width: 110%;
+    height: 70px;
+    transform: rotate(-3deg);
+    bottom: -35px;
+    right: -20px;
+
+}*/
+
+.header__bg-container{
+    width: 90%;
+    height: 1055px;
+    margin: auto;
+    background: url("../assets/boda-portada.jpeg") center / cover no-repeat;
+    position: relative;
+    z-index: 40;
+    border-radius: 0 0 20px 20px;
+    border: 3px solid #fcb000;
+}
+
+/*-- HEADER TITTLE CONTENT --*/
+.header__tittle-container{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    margin: auto;
+}
+
+.header__tittle{
+    color: #eca706;
+    font-family: 'Dynalight';
+    font-size: 40px;
+}
+
+
+
+/*-- HEADER LOGO CONTENT --*/
+.header__logo-container{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.header__logo{
+    width: 240px;
+}
+
+
+
+/*-- HEADER SUBTITTLE CONTENT --*/
+.header__subtittle-container{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.header__subtittle{
+    color: #d3970a;
+    font-family: 'Dynalight';
+    font-size: 50px;
+    font-weight: 600;
+}
+
+
+
+/*-- HEADER IMAGE CONTENT --*/
+.header__image-container{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding: 70px 0 90px 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    animation: rigth linear both;
+    animation-timeline: view();
+    animation-range: entry 1% cover 30%;
+}
+
+.header__image{
+    width: 220px;
+    transform: rotate(18deg);
+}
+
+
+/*-- HEADER TEXT CONTENT --*/
+.header__text-container{
+    width: 65%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    padding-top: 90px;
+    position: relative;
+    animation: showleft linear both;
+    animation-timeline: view();
+    animation-range: entry 1% cover 30%;
+}
+
+.header__text{
+    color: #2b2626;
+    font-family: 'Dynalight';
+    font-size: 33px;
+    font-weight: 600;
+}
+
+
+
+/*-- HAEDER DATE CONTENT --*/
+.header__date-container{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    align-items: center;
+    position: relative;
+    animation: rigth linear both;
+    animation-timeline: view();
+    animation-range: entry 1% cover 30%;
+}
+
+.header__date{
+    color: #2b2626;
+    font-family: 'Dynalight';
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.header__date-day{
+    color: #fff;
+    background: #c09530;
+    padding: 10px 20px;
+    border-radius: 90px;
+}
+
+
+.header__date-apartado{
+    margin: 0 20px;
+    color: #c09530;
+    font-size: 150px;
+    margin-top: -90px;
+    
+}
+
+
+
+/*-- APARTADO ONE CONTENT --*/
+.apartado__image-container{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    position: relative;
+    animation: top linear both;
+    animation-timeline: view();
+    animation-range: entry 1% cover 30%;
+
+}
+
+.apartado__one{
+    width: 360px;
+    filter: drop-shadow(5px 7px 5px #0008);
+}
+
+
+
+
+
+
+/*-- SHOW RIGTH --*/
+@keyframes rigth {
+    0% {
+        opacity: 0;
+        scale: 0;
+        transform: translateX(-500px);
+    }
+
+    100% {
+
+        opacity: 1;
+        scale: 1;
+        transform: translateX(0);
+    }
+}
+
+
+/*-- SHOW LEFT --*/
+@keyframes showleft {
+    0% {
+        opacity: 0;
+        scale: 0;
+        transform: translateX(500px);
+    }
+
+    100% {
+
+        opacity: 1;
+        scale: 1;
+        transform: translateX(0);
+    }
+}
+
+
+/*-- TITTLE ANIMATED SHOW --*/
+@keyframes top {
+    0% {
+        transform: translateY(-40px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
