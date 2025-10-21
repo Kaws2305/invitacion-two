@@ -8,6 +8,9 @@
     align-items: center;
     color: #c09530;
     font-family: 'Dynalight';
+    animation: rigth linear both;
+    animation-timeline: view();
+    animation-range: entry 1% cover 30%;
 }
 
 
@@ -37,4 +40,5 @@
 .count_text{
     font-size: 19px;
     font-weight: 600;
+    font-family: 'Oswald';
 }
