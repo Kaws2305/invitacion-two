@@ -1,0 +1,40 @@
+/*===== COUNTDOWN =====*/
+.contdown__container{
+    width: 85%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #c09530;
+    font-family: 'Dynalight';
+}
+
+
+/*-- COUNTDOWN TITTLE CONTENT --*/
+.countdown__tittle-container{
+    display: flex;
+    justify-content: center;
+}
+
+.countdown__tittle{
+    font-size: 40px;
+}
+
+
+/*-- COUNTDOWN CONTENT --*/
+.countdown__content{
+    display: flex;
+    text-align: center;
+    gap: 25px;
+    padding-top: 40px;
+}
+
+.count_time{
+    font-size: 35px;
+}
+
+.count_text{
+    font-size: 19px;
+    font-weight: 600;
+}

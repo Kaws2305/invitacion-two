@@ -2,8 +2,12 @@ import '../styles/Header.css';
 import logo from '../assets/E&J.png';
 import apartadoOne from '../assets/apartado-one.png';
 import fannyJuan from '../assets/fj.jpeg';
+import { Countdown } from './Contdown';
 
 export function Header () {
+
+    const targetDate = new Date('2025-12-31T23:59:59').getTime(); // Fecha objetivo (puedes cambiarla)
+
 
     return(
 
@@ -43,6 +47,12 @@ export function Header () {
                 <p className="header__date-day header__date">27</p>
                 <p className="header__date-apartadotwo header__date-apartado"></p>
                 <p className="header__date-year header__date">2025</p>
+            </div>
+
+            <div className='countdown'>
+
+               <Countdown targetDate={targetDate}/>
+
             </div>
 
             <div className="apartado__image-container">

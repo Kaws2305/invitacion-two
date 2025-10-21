@@ -15,7 +15,7 @@
   margin: auto;
   display: flex;
   justify-content: center;
-  color: #2b2626;
+  color: #c09530;
   font-family: "Yellowtail";
   position: relative;
   animation: rigth linear both;
@@ -60,13 +60,13 @@
 
 .dresscode__text-tittle {
   font-size: 50px;
-  color: #2b2626;
+  color: #c09530;
   font-family: "Dynalight";
   font-weight: 600;
 }
 
 .dresscode__text {
-  color: #111111;
+  color: #3d3c38;
   font-family: sans-serif;
   margin-top: 10px;
   font-size: 17px;

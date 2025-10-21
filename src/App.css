@@ -10,7 +10,7 @@
 .app{
     width: 100%;
     height: auto;
-    background: url('../src/assets/boda-bg.jpg');
+    background:#fceadc;
     position: relative;
     z-index: 40;
     padding-bottom: 200px;

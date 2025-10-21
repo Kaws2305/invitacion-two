@@ -22,12 +22,10 @@
 .header__bg-container{
     width: 90%;
     height: 1055px;
-    margin: auto;
-    background: url("../assets/boda-portada.jpeg") center / cover no-repeat;
+    margin: auto; 
     position: relative;
     z-index: 40;
     border-radius: 0 0 20px 20px;
-    border: 3px solid #fcb000;
 }
 
 /*-- HEADER TITTLE CONTENT --*/
@@ -41,7 +39,7 @@
 }
 
 .header__tittle{
-    color: #eca706;
+    color: #c09530;
     font-family: 'Dynalight';
     font-size: 40px;
 }
@@ -75,7 +73,7 @@
 }
 
 .header__subtittle{
-    color: #d3970a;
+    color: #c09530;
     font-family: 'Dynalight';
     font-size: 50px;
     font-weight: 600;
@@ -100,6 +98,7 @@
 .header__image{
     width: 200px;
     transform: rotate(15deg);
+    filter: drop-shadow(5px 7px 10px #0007);
 }
 
 
@@ -117,7 +116,7 @@
 }
 
 .header__text{
-    color: #2b2626;
+    color: #c09530;
     font-family: 'Dynalight';
     font-size: 33px;
     font-weight: 600;
@@ -141,7 +140,7 @@
 }
 
 .header__date{
-    color: #2b2626;
+    color: #c09530;
     font-family: 'Dynalight';
     font-size: 45px;
     font-weight: 600;
@@ -183,6 +182,16 @@
 .apartado__one{
     width: 360px;
     filter: drop-shadow(5px 7px 5px #0008);
+}
+
+
+
+
+/*-- COUNTDOWN CONTENT --*/
+.countdown{
+    width: 100%;
+    height: auto;
+    padding-top: 70px;
 }
 
 

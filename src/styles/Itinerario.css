@@ -14,7 +14,7 @@
     margin: auto;
     display: flex;
     justify-content: center;
-    color: #2b2626;
+    color: #c09530;
     font-family: 'Yellowtail';
     position: relative;
     animation: rigth linear both;
@@ -48,7 +48,7 @@
  position: relative;
  width: 3px;
  height: 340px;
- background: #2b2626;
+ background: #c09530;
  text-align: center;
 }
 
@@ -59,7 +59,7 @@
     position: absolute;
     width: 50px;
     height: 50px;
-    background: #2b2626;
+    background: #c09530;
     border-radius: 90px;
     display: flex;
     justify-content: center;
@@ -103,7 +103,7 @@ svg{
     position: absolute;
     font-family: 'Oswald';
     font-size: 24px;
-    color: #2b2626;
+    color: #c09530;
     font-weight: 600;
 }
 
