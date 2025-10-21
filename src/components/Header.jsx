@@ -6,7 +6,7 @@ import { Countdown } from './Contdown';
 
 export function Header () {
 
-    const targetDate = new Date('2025-12-31T23:59:59').getTime(); // Fecha objetivo (puedes cambiarla)
+    const targetDate = new Date('2025-12-27T11:40:00').getTime(); // Fecha objetivo (puedes cambiarla)
 
 
     return(
