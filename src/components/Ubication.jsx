@@ -1,6 +1,7 @@
 import '../styles/Ubication.css';
 import { Ubicationcards } from './Ubicationcards';
 import apartadoTwo from '../assets/apartado-two.png';
+import hacienda from '../assets/hacienda.jpg';
 
 export function Ubication () {
 
@@ -24,7 +25,7 @@ export function Ubication () {
 
             <Ubicationcards
             card__tittle='CELEBRACIÓN'
-            card__image='https://hotelhuayacan.com/wp-content/uploads/2021/01/huayacan.jpg'
+            card__image={hacienda}
             card__place='HACIENDA SAN JUAN' 
             card__hour='01:30 PM'
             card__location='Av. Independencia 5, Col. La Magdalena Atlicpac, 56525 Los Reyes Acaquilpan, Méx.'
