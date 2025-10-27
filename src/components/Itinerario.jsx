@@ -29,16 +29,16 @@ export function Itinerario () {
                 
 
                 <div className="itinerario__comida itinerario__items">
-                    <img src={rings} alt="" className="rings" />
+                    <img src={rings} alt="rings" className="rings" />
                 </div>
 
-                <p className="itinerario__text-eat itinerario__text">BODA CIVIL   <br></br><strong className="itinerario__stron">02:20 PM</strong> </p>
+                <p className="itinerario__text-eat itinerario__text">BODA CIVIL   <br></br><strong className="itinerario__stron">02:30 PM</strong> </p>
 
                 <div className=" itinerario__baile itinerario__items">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-glass-champagne"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 21h6" /><path d="M12 16v5" /><path d="M12 5m-4 0a4 2 0 1 0 8 0a4 2 0 1 0 -8 0" /><path d="M8 5c0 6.075 1.79 11 4 11s4 -4.925 4 -11" /></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-tools-kitchen-2"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19 3v12h-5c-.023 -3.681 .184 -7.406 5 -12zm0 12v6h-1v-3m-10 -14v17m-3 -17v3a3 3 0 1 0 6 0v-3" /></svg>
                 </div>
 
-                <p className="itinerario__text-brindis itinerario__text">BRINDIS<br></br><strong className="itinerario__stron">05:00 PM</strong> </p>
+                <p className="itinerario__text-brindis itinerario__text">COMIDA<br></br><strong className="itinerario__stron">04:00 PM</strong> </p>
 
             </div>
 
