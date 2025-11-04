@@ -19,8 +19,9 @@ export function Gifttable () {
                     <p className="gift__logo-text">Liverpool</p>
                 </a>
 
-                <a href="https://www.sears.com.mx/Mesa-de-Regalos/215785/Te-invito-a-mi-Boda---Esteffany-Jareth-&-Juan-" target='_blank' className="gifttable__card">
+                <a href="https://www.sears.com.mx/Mesa-de-Regalos/215785/Te-invito-a-mi-Boda---Esteffany-Jareth-&-Juan-" target='_blank' className="gifttable__card gifttable__card-sears">
                     <img src={logoSears} alt="sears-logo" className="gift__logo-sears" />
+                    <p className='sears__table'><strong className='table'>MESA</strong> #215785</p>
                 </a>
 
             </div>
