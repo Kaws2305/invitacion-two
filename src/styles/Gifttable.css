@@ -62,7 +62,7 @@
 }
 
 .gift__logo-liverpool{
-    width: 80px;
+    width: 70px;
 }
 
 .gift__logo-text{
@@ -93,7 +93,8 @@
   
 }
 
-.gifttable__card-sears{
+.gifttable__card-sears,
+.gifttable__card-liverpool{
   height: 120px;
   flex-direction: column;
 }
@@ -104,4 +105,17 @@
 }
 .table{
   font-weight: 400;
+}
+
+.giftable__logo-liverpool{
+  width: 90%;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.gifttable__card-liverpool{
+  justify-content: center;
 }
